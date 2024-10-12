@@ -7,8 +7,10 @@ body {
     /* background-color: #fff !important; */
     background-color: rgba(226, 232, 240, 1) !important
   }
+  
   #slider img {
     height: 600px;
+    
   }
   
   #sidebar {
@@ -100,6 +102,56 @@ a{
    margin-left: 10px;
     
   }
+
+  .carousel-caption {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: black;
+  }
+
+  .carouselrighttext {
+    position: absolute;
+    right: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: right; /* Text alignment to the right */
+  }
+  .carouselrighttext h1{
+    color: #fff !important;
+  }
+  .carouselrighttext h5{
+    color: #fff !important;
+  }
+
+  .carousel-caption h2{
+    font-size: 34px;
+    color: #f05a09;
+    font-weight: 900;
+  }
+  .carousel-caption h1{
+    font-size: 50px;
+    color: #066c04;
+    font-weight: 1000;
+  }
+  .ordernow{
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);;
+  }
+  .ordernow:hover {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15), 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .caroselbutton{
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+/* For positioning the slider caption text (slidertext1) */
+
+
   /* .leftsideallsection{
     position: fixed !important;
     
@@ -115,12 +167,15 @@ a{
     margin-top: -13px;
     
   }
+
+  
   .inneroption{
     font-size: 17px;
     font-weight: bold;
    margin-right: 30px;
     color: rgba(0,0,0,0.8);
   }
+  
   
   .mainoption{
     font-size: 19px;
@@ -181,8 +236,6 @@ a{
   }
 
   
-
-  
     
     
     .leftbackward button{
@@ -228,6 +281,15 @@ a{
     height: 200px;
 
   }
+
+  .carousel-caption h2{
+    font-size: 20px;
+    
+  }
+  .carousel-caption h1{
+    font-size: 22px;
+    
+  }
   }
   @media (max-width: 768px) {
     .card {
@@ -235,5 +297,18 @@ a{
     }
   }
   
+
+  @media (min-width: 992px) and (max-width: 1440px) {
+    
+  
+    .carousel-caption h2{
+      font-size: 24px;
+      
+    }
+    .carousel-caption h1{
+      font-size: 30px;
+      
+    }
+  }
  
   
