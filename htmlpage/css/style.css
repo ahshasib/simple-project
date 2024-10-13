@@ -21,7 +21,19 @@ body {
     height: 600px;
     
   }
-  
+  .navbar-brand{
+    color: #066c04 !important;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .navbar-brand img{
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    
+  }
   #sidebar {
     padding: 15px;
     border-top: 1px solid rgb(226, 225, 225) ;
@@ -195,6 +207,7 @@ a{
    
   }
 
+  
   .productcard button{
     width: 100%;
     text-align: center;
